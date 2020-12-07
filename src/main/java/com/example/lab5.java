@@ -429,3 +429,43 @@ abstract public class BasePlayer {
 
 }
 
+package lab5.players.models;
+
+
+
+
+
+public class PCPlayer extends BasePlayer {
+
+    public static final int POINTS_THRESHOLD = 17;
+
+
+
+
+    @Override
+
+    public void takeCard(String newCard) {
+
+        this.addCard(newCard);
+
+    }
+
+}
+
+package lab5.players.models;
+
+
+
+
+
+public class UserPlayer extends BasePlayer {
+
+    @Override
+
+    public void takeCard(String newCard) {
+
+        this.addCard(newCard);
+
+    }
+
+}
