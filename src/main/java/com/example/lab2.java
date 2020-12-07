@@ -114,3 +114,4 @@ public interface Lab1Constants {
     int UPPER_RANDOM_RANGE = 100;
 
     int LOWER_RANDOM_RANGE = 1;
+}
